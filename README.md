@@ -1,5 +1,5 @@
 # MODEL MAYHEM — PCB Defect Detection
-# **Team**: Zenkai
+# **Team**: ZENKAI
 **Team Members**:
 Rajesh Kumar Swain
 Abankita Behera
