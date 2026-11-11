@@ -1,0 +1,29 @@
+MODEL MAYHEM — PCB DEFECT DETECTION
+
+Final model: YOLO26m
+Input resolution: 896 x 896
+
+Preprocessing:
+CLAHE on LAB luminance channel
+Clip limit: 1.5
+Tile grid size: 8 x 8
+
+Starting weights: yolo26m.pt
+Training approach: Fresh transfer learning
+
+The previous 640-resolution checkpoint was not available
+in the training kernel. This run was not resumed from it.
+
+Validation set:
+517 images
+2218 annotated instances
+
+Competition evaluation metric:
+mAP@50:90
+
+Test predictions:
+Generated from the supplied local test image directory.
+
+The test labels were not used for model training or inference.
+
+The organiser-held-out test score is not known from this package.

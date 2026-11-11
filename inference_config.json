@@ -1,0 +1,15 @@
+{
+    "model": "YOLO26m",
+    "weights": "/kaggle/working/pcb_runs_896/YOLO26m_896_CLAHE_Competition/weights/best.pt",
+    "imgsz": 896,
+    "batch_size": 1,
+    "inference_device": "CPU",
+    "precision": "FP32",
+    "conf_threshold": 0.001,
+    "nms_iou_threshold": 0.7,
+    "max_det": 300,
+    "preprocessing": "CLAHE on LAB L channel",
+    "coordinates": "Original image pixel xyxy",
+    "test_images_processed": 189,
+    "total_detections": 4097
+}

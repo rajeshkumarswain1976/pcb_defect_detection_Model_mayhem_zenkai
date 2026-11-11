@@ -1,0 +1,43 @@
+{
+    "architecture": "YOLO26m",
+    "starting_weights": "yolo26m.pt",
+    "training_mode": "Fresh transfer learning from pretrained yolo26m.pt",
+    "image_size": 896,
+    "batch_size": 8,
+    "epochs_configured": 120,
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "final_lr_factor": 0.01,
+    "momentum": 0.937,
+    "weight_decay": 0.0005,
+    "warmup_epochs": 2,
+    "cosine_lr": true,
+    "patience": 30,
+    "box_loss_gain": 7.5,
+    "classification_loss_gain": 0.5,
+    "regression_loss_setting": 1.5,
+    "class_weight": 0.0,
+    "mosaic": 0.1,
+    "mixup": 0.0,
+    "clahe": {
+        "enabled": true,
+        "color_space": "LAB",
+        "channel": "L",
+        "clip_limit": 1.5,
+        "tile_grid_size": [
+            8,
+            8
+        ]
+    },
+    "competition_metric": "mAP@50:90",
+    "checkpoint_selection_metric": "mAP@50:90",
+    "class_names": [
+        "missing_hole",
+        "mouse_bite",
+        "open_circuit",
+        "short",
+        "spur",
+        "spurious_copper"
+    ],
+    "ultralytics_version": "8.4.210"
+}
