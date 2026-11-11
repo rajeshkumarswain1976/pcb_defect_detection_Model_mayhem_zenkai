@@ -1,4 +1,9 @@
 # MODEL MAYHEM — PCB Defect Detection
+**Team**: Zenkai
+**Team Members**:
+Rajesh Kumar Swain
+Abankita Behera
+Mohammad Jazbi
 
 ## 1. Model Overview
 
@@ -41,6 +46,23 @@ The class IDs must remain in this exact order:
 - `requirements.txt` — Python dependencies
 - `validation/` — validation metrics and training history
 - `test_visualizations/` — test prediction images and contact sheets
+
+## 4. Results
+Confusion matrix
+<img width="1280" height="960" alt="WhatsApp Image 2026-11-11 at 4 28 12 PM" src="https://github.com/user-attachments/assets/fa303ba4-5b00-4ae6-b7ef-86b0d40e4b07" />
+
+All plots
+<img width="1280" height="591" alt="WhatsApp Image 2026-11-11 at 4 27 59 PM" src="https://github.com/user-attachments/assets/82bda09e-3b14-4907-b9c5-4f1ad520f295" />
+
+Testing results
+<img width="1280" height="832" alt="WhatsApp Image 2026-11-11 at 4 24 54 PM" src="https://github.com/user-attachments/assets/73518897-50b7-4b7c-8cbc-9a45226e82f8" />
+
+Validation results
+<img width="1280" height="832" alt="WhatsApp Image 2026-11-11 at 4 24 55 PM" src="https://github.com/user-attachments/assets/1dcb80a5-d62f-4d84-92de-752415a018cf" />
+
+Images showing predictions on the test set
+<img width="1280" height="832" alt="test images" src="https://github.com/user-attachments/assets/5c95a827-1748-49af-aac1-5a65aa06068f" />
+
 
 ## 4. Recorded Training Environment
 
